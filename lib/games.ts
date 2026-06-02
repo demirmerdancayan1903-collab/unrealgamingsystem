@@ -42,7 +42,21 @@ export const games: Game[] = [
   { id: '6', title: 'Shadow Strike', category: 'action', thumbnail: 'https://picsum.photos/seed/shadow/400/300', plays: '980K', rating: 4.4, gameUrl: `${GD_BASE}/f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3/` },
   { id: '7', title: 'Battle Arena', category: 'action', thumbnail: 'https://picsum.photos/seed/arena/400/300', plays: '1.2M', rating: 4.3, gameUrl: `${GD_BASE}/a9b8c7d6e5f4a3b2c1d0e9f8a7b6c5d4/` },
   { id: '8', title: 'Sword Master', category: 'action', thumbnail: 'https://picsum.photos/seed/sword/400/300', plays: '2.8M', rating: 4.7, isNew: true, gameUrl: `${GD_BASE}/c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7/` },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Adventure Games
   { id: '9', title: 'Lost Island', category: 'adventure', thumbnail: 'https://picsum.photos/seed/island/400/300', plays: '1.9M', rating: 4.6, isFeatured: true, gameUrl: 'https://playhop.com/embed/fireboy-and-watergirl-forest-temple' },
   { id: '10', title: 'Treasure Hunt', category: 'adventure', thumbnail: 'https://picsum.photos/seed/treasure/400/300', plays: '1.4M', rating: 4.5, gameUrl: 'https://playhop.com/embed/tomb-runner' },
@@ -51,7 +65,21 @@ export const games: Game[] = [
   { id: '13', title: 'Ancient Quest', category: 'adventure', thumbnail: 'https://picsum.photos/seed/ancient/400/300', plays: '1.1M', rating: 4.3, gameUrl: 'https://playhop.com/embed/temple-run' },
   { id: '14', title: 'Ocean Voyage', category: 'adventure', thumbnail: 'https://picsum.photos/seed/ocean/400/300', plays: '750K', rating: 4.2, gameUrl: 'https://playhop.com/embed/fish-eat-fish' },
   { id: '15', title: 'Desert Storm', category: 'adventure', thumbnail: 'https://picsum.photos/seed/desert/400/300', plays: '1.6M', rating: 4.6, isNew: true, gameUrl: 'https://playhop.com/embed/desert-road' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Puzzle Games - Using embeddable HTML5 games
   { id: '16', title: 'Block Master', category: 'puzzle', thumbnail: 'https://picsum.photos/seed/block/400/300', plays: '4.2M', rating: 4.9, isFeatured: true, isTrending: true, gameUrl: 'https://www.lumpty.com/amusements/Games/Tetris/tetris.html' },
   { id: '17', title: 'Mind Twist', category: 'puzzle', thumbnail: 'https://picsum.photos/seed/mind/400/300', plays: '2.8M', rating: 4.7, gameUrl: 'https://play2048.co/' },
@@ -69,7 +97,21 @@ export const games: Game[] = [
   { id: '27', title: 'Off Road Rally', category: 'racing', thumbnail: 'https://picsum.photos/seed/offroad/400/300', plays: '1.8M', rating: 4.5, gameUrl: 'https://playhop.com/embed/offroad-racer' },
   { id: '28', title: 'F1 Champion', category: 'racing', thumbnail: 'https://picsum.photos/seed/f1/400/300', plays: '3.2M', rating: 4.8, isTrending: true, gameUrl: 'https://playhop.com/embed/formula-rush' },
   { id: '29', title: 'Boat Racing', category: 'racing', thumbnail: 'https://picsum.photos/seed/boat/400/300', plays: '1.1M', rating: 4.3, gameUrl: 'https://playhop.com/embed/jet-ski-racing' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Sports Games
   { id: '30', title: 'Football Pro', category: 'sports', thumbnail: 'https://picsum.photos/seed/football/400/300', plays: '4.5M', rating: 4.8, isFeatured: true, gameUrl: 'https://playhop.com/embed/soccer-skills-world-cup' },
   { id: '31', title: 'Basketball Star', category: 'sports', thumbnail: 'https://picsum.photos/seed/basket/400/300', plays: '3.2M', rating: 4.7, isTrending: true, gameUrl: 'https://playhop.com/embed/basketball-stars' },
@@ -77,7 +119,21 @@ export const games: Game[] = [
   { id: '33', title: 'Golf Master', category: 'sports', thumbnail: 'https://picsum.photos/seed/golf/400/300', plays: '1.4M', rating: 4.4, gameUrl: 'https://playhop.com/embed/mini-golf-king' },
   { id: '34', title: 'Boxing Ring', category: 'sports', thumbnail: 'https://picsum.photos/seed/boxing/400/300', plays: '2.1M', rating: 4.6, isNew: true, gameUrl: 'https://playhop.com/embed/boxing-random' },
   { id: '35', title: 'Swimming Race', category: 'sports', thumbnail: 'https://picsum.photos/seed/swim/400/300', plays: '890K', rating: 4.2, gameUrl: 'https://playhop.com/embed/swimming-pro' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Shooting Games
   { id: '36', title: 'Sniper Elite', category: 'shooting', thumbnail: 'https://picsum.photos/seed/sniper/400/300', plays: '3.8M', rating: 4.8, isFeatured: true, isTrending: true, gameUrl: 'https://playhop.com/embed/sniper-3d' },
   { id: '37', title: 'Tank Battle', category: 'shooting', thumbnail: 'https://picsum.photos/seed/tank/400/300', plays: '2.5M', rating: 4.6, gameUrl: 'https://playhop.com/embed/tank-trouble-2' },
@@ -85,7 +141,21 @@ export const games: Game[] = [
   { id: '39', title: 'Cowboy Shooter', category: 'shooting', thumbnail: 'https://picsum.photos/seed/cowboy/400/300', plays: '1.7M', rating: 4.4, gameUrl: 'https://playhop.com/embed/western-shooter' },
   { id: '40', title: 'Alien Invasion', category: 'shooting', thumbnail: 'https://picsum.photos/seed/alien/400/300', plays: '2.9M', rating: 4.7, gameUrl: 'https://playhop.com/embed/alien-shooter' },
   { id: '41', title: 'War Zone', category: 'shooting', thumbnail: 'https://picsum.photos/seed/warzone/400/300', plays: '4.2M', rating: 4.9, isTrending: true, gameUrl: 'https://playhop.com/embed/warzone-mercenaries' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Strategy Games
   { id: '42', title: 'Empire Builder', category: 'strategy', thumbnail: 'https://picsum.photos/seed/empire/400/300', plays: '2.8M', rating: 4.7, isFeatured: true, gameUrl: 'https://playhop.com/embed/goodgame-empire' },
   { id: '43', title: 'Tower Defense', category: 'strategy', thumbnail: 'https://picsum.photos/seed/tower/400/300', plays: '3.5M', rating: 4.8, isTrending: true, gameUrl: 'https://playhop.com/embed/tower-defense' },
@@ -93,49 +163,147 @@ export const games: Game[] = [
   { id: '45', title: 'War Strategy', category: 'strategy', thumbnail: 'https://picsum.photos/seed/war/400/300', plays: '1.9M', rating: 4.5, isNew: true, gameUrl: 'https://playhop.com/embed/war-simulator' },
   { id: '46', title: 'City Builder', category: 'strategy', thumbnail: 'https://picsum.photos/seed/city/400/300', plays: '2.4M', rating: 4.6, gameUrl: 'https://playhop.com/embed/city-builder-3d' },
   { id: '47', title: 'Kingdom Wars', category: 'strategy', thumbnail: 'https://picsum.photos/seed/kingdom/400/300', plays: '1.6M', rating: 4.4, gameUrl: 'https://playhop.com/embed/kingdom-wars' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Multiplayer Games - Using actual .io games
   { id: '48', title: 'Battle Royale', category: 'multiplayer', thumbnail: 'https://picsum.photos/seed/royale/400/300', plays: '8.5M', rating: 4.9, isFeatured: true, isTrending: true, gameUrl: 'https://1v1.lol' },
   { id: '49', title: 'Team Fight', category: 'multiplayer', thumbnail: 'https://picsum.photos/seed/team/400/300', plays: '5.2M', rating: 4.8, gameUrl: 'https://shellshock.io' },
   { id: '50', title: 'Capture Flag', category: 'multiplayer', thumbnail: 'https://picsum.photos/seed/flag/400/300', plays: '3.1M', rating: 4.6, isNew: true, gameUrl: 'https://krunker.io' },
   { id: '51', title: 'Co-op Quest', category: 'multiplayer', thumbnail: 'https://picsum.photos/seed/coop/400/300', plays: '2.7M', rating: 4.5, gameUrl: 'https://playhop.com/embed/fireboy-and-watergirl-2' },
   { id: '52', title: 'Arena Clash', category: 'multiplayer', thumbnail: 'https://picsum.photos/seed/clash/400/300', plays: '4.3M', rating: 4.7, gameUrl: 'https://ev.io' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Arcade Games
   { id: '53', title: 'Pac Runner', category: 'arcade', thumbnail: 'https://picsum.photos/seed/pac/400/300', plays: '3.9M', rating: 4.7, isFeatured: true, gameUrl: 'https://playhop.com/embed/pacman' },
   { id: '54', title: 'Space Invader', category: 'arcade', thumbnail: 'https://picsum.photos/seed/invader/400/300', plays: '2.8M', rating: 4.6, gameUrl: 'https://playhop.com/embed/space-invaders' },
   { id: '55', title: 'Brick Break', category: 'arcade', thumbnail: 'https://picsum.photos/seed/brick/400/300', plays: '3.2M', rating: 4.5, isNew: true, gameUrl: 'https://playhop.com/embed/brick-breaker' },
   { id: '56', title: 'Pinball Pro', category: 'arcade', thumbnail: 'https://picsum.photos/seed/pinball/400/300', plays: '1.9M', rating: 4.4, gameUrl: 'https://playhop.com/embed/pinball' },
   { id: '57', title: 'Retro Jump', category: 'arcade', thumbnail: 'https://picsum.photos/seed/retro/400/300', plays: '2.4M', rating: 4.6, isTrending: true, gameUrl: 'https://playhop.com/embed/geometry-dash' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // .io Games - These work well as they're designed for embedding
   { id: '58', title: 'Slither.io', category: 'io', thumbnail: 'https://picsum.photos/seed/slither/400/300', plays: '12.5M', rating: 4.9, isFeatured: true, isTrending: true, gameUrl: 'https://slither.io' },
   { id: '59', title: 'Agar.io', category: 'io', thumbnail: 'https://picsum.photos/seed/agar/400/300', plays: '10.2M', rating: 4.8, gameUrl: 'https://agar.io' },
   { id: '60', title: 'Paper.io', category: 'io', thumbnail: 'https://picsum.photos/seed/paper/400/300', plays: '7.8M', rating: 4.7, gameUrl: 'https://paper-io.com' },
   { id: '61', title: 'Hole.io', category: 'io', thumbnail: 'https://picsum.photos/seed/hole/400/300', plays: '6.5M', rating: 4.6, isNew: true, gameUrl: 'https://hole-io.com' },
   { id: '62', title: 'Diep.io', category: 'io', thumbnail: 'https://picsum.photos/seed/diep/400/300', plays: '5.1M', rating: 4.5, gameUrl: 'https://diep.io' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Horror Games
   { id: '63', title: 'Haunted House', category: 'horror', thumbnail: 'https://picsum.photos/seed/haunted/400/300', plays: '2.1M', rating: 4.6, isFeatured: true, gameUrl: 'https://playhop.com/embed/granny' },
   { id: '64', title: 'Night Terror', category: 'horror', thumbnail: 'https://picsum.photos/seed/terror/400/300', plays: '1.8M', rating: 4.5, isTrending: true, gameUrl: 'https://playhop.com/embed/five-nights-at-freddys' },
   { id: '65', title: 'Scary Hospital', category: 'horror', thumbnail: 'https://picsum.photos/seed/hospital/400/300', plays: '1.5M', rating: 4.4, isNew: true, gameUrl: 'https://playhop.com/embed/horror-hospital' },
   { id: '66', title: 'Ghost Hunt', category: 'horror', thumbnail: 'https://picsum.photos/seed/ghost/400/300', plays: '1.2M', rating: 4.3, gameUrl: 'https://playhop.com/embed/ghost-hunter' },
   { id: '67', title: 'Dark Forest', category: 'horror', thumbnail: 'https://picsum.photos/seed/forest/400/300', plays: '980K', rating: 4.2, gameUrl: 'https://playhop.com/embed/slenderman' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Simulation Games
   { id: '68', title: 'Flight Sim', category: 'simulation', thumbnail: 'https://picsum.photos/seed/flight/400/300', plays: '2.9M', rating: 4.7, isFeatured: true, gameUrl: 'https://www.geo-fs.com/geofs.php' },
   { id: '69', title: 'Farm Life', category: 'simulation', thumbnail: 'https://picsum.photos/seed/farm/400/300', plays: '3.5M', rating: 4.8, isTrending: true, gameUrl: 'https://playhop.com/embed/goodgame-big-farm' },
   { id: '70', title: 'Train Driver', category: 'simulation', thumbnail: 'https://picsum.photos/seed/train/400/300', plays: '1.8M', rating: 4.5, gameUrl: 'https://playhop.com/embed/train-simulator' },
   { id: '71', title: 'Cooking Sim', category: 'simulation', thumbnail: 'https://picsum.photos/seed/cooking/400/300', plays: '2.4M', rating: 4.6, isNew: true, gameUrl: 'https://playhop.com/embed/cooking-fever' },
   { id: '72', title: 'Business Tycoon', category: 'simulation', thumbnail: 'https://picsum.photos/seed/business/400/300', plays: '2.1M', rating: 4.5, gameUrl: 'https://playhop.com/embed/idle-startup-tycoon' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Fighting Games
   { id: '73', title: 'Street Fighter', category: 'fighting', thumbnail: 'https://picsum.photos/seed/fighter/400/300', plays: '4.2M', rating: 4.8, isFeatured: true, isTrending: true, gameUrl: 'https://playhop.com/embed/street-fighter-2' },
   { id: '74', title: 'Mortal Match', category: 'fighting', thumbnail: 'https://picsum.photos/seed/mortal/400/300', plays: '3.5M', rating: 4.7, gameUrl: 'https://playhop.com/embed/mortal-kombat-karnage' },
   { id: '75', title: 'Tekken Style', category: 'fighting', thumbnail: 'https://picsum.photos/seed/tekken/400/300', plays: '2.8M', rating: 4.6, isNew: true, gameUrl: 'https://playhop.com/embed/mutant-fighting-cup-2' },
   { id: '76', title: 'Wrestling Pro', category: 'fighting', thumbnail: 'https://picsum.photos/seed/wrestling/400/300', plays: '1.9M', rating: 4.4, gameUrl: 'https://playhop.com/embed/wrestling-random' },
   { id: '77', title: 'Kung Fu Master', category: 'fighting', thumbnail: 'https://picsum.photos/seed/kungfu/400/300', plays: '2.3M', rating: 4.5, gameUrl: 'https://playhop.com/embed/ultimate-hero-clash' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // Casual Games
   { id: '78', title: 'Candy Crush', category: 'casual', thumbnail: 'https://picsum.photos/seed/candy/400/300', plays: '15.2M', rating: 4.9, isFeatured: true, isTrending: true, gameUrl: 'https://playhop.com/embed/candy-riddles' },
   { id: '79', title: 'Bubble Pop', category: 'casual', thumbnail: 'https://picsum.photos/seed/bubble/400/300', plays: '8.5M', rating: 4.7, gameUrl: 'https://playhop.com/embed/bubble-shooter' },
@@ -144,7 +312,21 @@ export const games: Game[] = [
   { id: '82', title: 'Solitaire', category: 'casual', thumbnail: 'https://picsum.photos/seed/solitaire/400/300', plays: '7.1M', rating: 4.6, gameUrl: 'https://www.solitr.com/' },
   { id: '83', title: 'Mahjong', category: 'casual', thumbnail: 'https://picsum.photos/seed/mahjong/400/300', plays: '4.3M', rating: 4.5, gameUrl: 'https://playhop.com/embed/mahjongg-solitaire' },
   { id: '84', title: 'Word Search', category: 'casual', thumbnail: 'https://picsum.photos/seed/word/400/300', plays: '3.9M', rating: 4.4, gameUrl: 'https://playhop.com/embed/word-search' },
-  
+  <div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
+
   // More Games
   { id: '85', title: 'Stickman Run', category: 'action', thumbnail: 'https://picsum.photos/seed/stick/400/300', plays: '4.1M', rating: 4.7, gameUrl: 'https://playhop.com/embed/vex-4' },
   { id: '86', title: 'Pixel Warrior', category: 'action', thumbnail: 'https://picsum.photos/seed/pixel/400/300', plays: '2.3M', rating: 4.5, isNew: true, gameUrl: 'https://playhop.com/embed/pixel-warfare' },
@@ -163,6 +345,20 @@ export const games: Game[] = [
   { id: '99', title: 'Skribbl.io', category: 'io', thumbnail: 'https://picsum.photos/seed/skribbl/400/300', plays: '5.8M', rating: 4.7, isNew: true, gameUrl: 'https://skribbl.io' },
   { id: '100', title: 'Escape Room', category: 'horror', thumbnail: 'https://picsum.photos/seed/escape/400/300', plays: '2.3M', rating: 4.5, gameUrl: 'https://playhop.com/embed/escape-room' },
 ]
+<div id="gamemonetize-video"></div>
+<script type="text/javascript">
+   window.VIDEO_OPTIONS = {
+       gameid : "4kci7og3klgj0ivy2wz3gdvd9dth5e7n",
+       width  : "100%",
+       height : "480px",
+       color  : "#3f007e",
+       getAds  : "false"
+   };
+   (function (a, b, c) {
+      var d = a.getElementsByTagName(b)[0];
+      a.getElementById(c) || (a = a.createElement(b), a.id = c, a.src = "https://api.gamemonetize.com/video.js", d.parentNode.insertBefore(a, d))
+   })(document, "script", "gamemonetize-video-api"); 
+</script>  
 
 export function getGamesByCategory(categoryId: string): Game[] {
   if (categoryId === 'all') return games
