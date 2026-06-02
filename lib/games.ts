@@ -344,7 +344,7 @@ export const games: Game[] = [
   { id: '98', title: 'Snake Game', category: 'arcade', thumbnail: 'https://picsum.photos/seed/snake/400/300', plays: '4.5M', rating: 4.6, gameUrl: 'https://playsnake.org/' },
   { id: '99', title: 'Skribbl.io', category: 'io', thumbnail: 'https://picsum.photos/seed/skribbl/400/300', plays: '5.8M', rating: 4.7, isNew: true, gameUrl: 'https://skribbl.io' },
   { id: '100', title: 'Escape Room', category: 'horror', thumbnail: 'https://picsum.photos/seed/escape/400/300', plays: '2.3M', rating: 4.5, gameUrl: 'https://playhop.com/embed/escape-room' },
-{ id: '101' , title:  'INFORMATION TEST' thumbnail: https://gamedistribution.com/games/trivia-nation/
+{ id: '101' , title:  'Information Test' category: 'multiplayer' thumbnail: https://gamedistribution.com/games/trivia-nation/
   ]
 <div id="gamemonetize-video"></div>
 <script type="text/javascript">
